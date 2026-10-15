@@ -8,7 +8,8 @@ export function passwordGeneratorView(container) {
   const inputNum = document.createElement('input');
   const copyBtn = document.createElement('button');
   const generateBtn = document.createElement('button');
-  const passDiv = document.createElement('div')
+  const passDiv = document.createElement('div');
+  const img = document.createElement('img')
 
   passContainer.classList.add('passwordContainer');
   title.textContent = 'Password Generator';
@@ -23,10 +24,13 @@ export function passwordGeneratorView(container) {
   inputNum.max = '32'
   inputNum.value = '8'
   inputNum.placeholder = 'long'
-  inputNum.classList.add('inputNum')
+  inputNum.classList.add('inputNum');
+
+  img.src = '/src/password/views/assets/copy.svg'
 
   copyBtn.classList.add("copy-btn");
-  copyBtn.innerHTML = `<img src="./assets/copy.svg">`;
+  copyBtn.appendChild(img)
+  // copyBtn.innerHTML = `<img src="./assets/copy.svg">`;
 
   generateBtn.classList.add('generate-btn');
   generateBtn.textContent = 'Generate'; // Corregido el typo "Gerenrate"
