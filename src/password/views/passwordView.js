@@ -27,8 +27,8 @@ export function passwordGeneratorView(container) {
   inputNum.classList.add('inputNum');
 
   // img.src = '/src/password/views/assets/copy.svg'
-  img.src = '/password-generator/src/password/views/assets/copy.svg'
-  // img.src = './assets/copy.svg'
+  // img.src = '/password-generator/src/password/views/assets/copy.svg'
+  img.src = './assets/copy.svg'
 
   copyBtn.classList.add("copy-btn");
   copyBtn.appendChild(img)
