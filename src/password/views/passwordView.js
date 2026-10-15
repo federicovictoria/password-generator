@@ -26,7 +26,7 @@ export function passwordGeneratorView(container) {
   inputNum.classList.add('inputNum')
 
   copyBtn.classList.add("copy-btn");
-  copyBtn.innerHTML = `<img src="/src/password/views/assets/copy.svg">`;
+  copyBtn.innerHTML = `<img src="./assets/copy.svg">`;
 
   generateBtn.classList.add('generate-btn');
   generateBtn.textContent = 'Generate'; // Corregido el typo "Gerenrate"
