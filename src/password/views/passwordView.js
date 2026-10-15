@@ -26,6 +26,7 @@ export function passwordGeneratorView(container) {
   inputNum.placeholder = 'long'
   inputNum.classList.add('inputNum');
 
+  // img.src = '/src/password/views/assets/copy.svg'
   img.src = '/src/password/views/assets/copy.svg'
 
   copyBtn.classList.add("copy-btn");
